@@ -2,10 +2,10 @@
 
 ## 開発環境
 
-Python 3.8.5
-パッケージ管理 pipenv
-開発環境 Visual Studio Code Remote Container
-feedparser 5.2.1
+* Python 3.8.5
+* パッケージ管理 pipenv
+* 開発環境 Visual Studio Code Remote Container
+* feedparser 5.2.1
 
 ## 環境構築メモ
 
