@@ -21,7 +21,7 @@ class AzureArticle:
 def get_azure_articles() -> List[AzureArticle]:
     url = "https://azurecomcdn.azureedge.net/ja-jp/updates/feed/"
     res = feedparser.parse(url)
-    entries = res["entries"]
+    entries = res.get("entries", list())
     articles: List[AzureArticle] = list()
     for entry in entries:
 
